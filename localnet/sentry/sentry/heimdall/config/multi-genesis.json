@@ -1,0 +1,348 @@
+{
+  "genesis_time": "2022-03-11T07:15:38.785408896Z",
+  "chain_id": "heimdall-15678",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "secp256k1"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000",
+        "max_tx_gas": "1000000",
+        "tx_fees": "1000000000000000"
+      },
+      "accounts": [
+        {
+          "address": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+          "coins": [
+            {
+              "denom": "w3fs",
+              "amount": "1000000000000000000000"
+            }
+          ],
+          "sequence_number": "0",
+          "account_number": "0",
+          "module_name": "",
+          "module_permissions": null
+        },        {
+          "address": "0xC038a6053159A3170338DD5DcbB8D633d5254Ac0",
+          "coins": [
+            {
+              "denom": "w3fs",
+              "amount": "1000000000000000000000"
+            }
+          ],
+          "sequence_number": "0",
+          "account_number": "0",
+          "module_name": "",
+          "module_permissions": null
+        }      ]
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "bor": {
+      "params": {
+        "sprint_duration": "64",
+        "span_duration": "6400",
+        "producer_count": "11"
+      },
+      "spans": [
+        {
+          "span_id": "0",
+          "start_block": "0",
+          "end_block": "255",
+          "validator_set": {
+            "validators": [
+              {
+                "ID": "1",
+                "startEpoch": "0",
+                "endEpoch": "0",
+                "nonce": "1",
+                "power": "10000",
+                "pubKey": "0x04914873c8d5935837ade39cbdabd6efb3d3d4064c5918da11e555bba0ab2c58fee95974a3222830cf73d257bdc18cfcd01765482108a48e68bc0b657618acb40e",
+                "signer": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+                "last_updated": "",
+                "storagePower": "0",
+                "storageNonce": "0",
+                "storagePromise" : "1000000000",
+                "jailed": false,
+                "accum": "-10000"
+              },              {
+                "ID": "2",
+                "startEpoch": "0",
+                "endEpoch": "0",
+                "nonce": "1",
+                "power": "10000",
+                "pubKey": "0x04cb01746d1afb76cff9521efaa7e4b2cbb51ff43c1321ae37e39e5753e73d1a8fa36ffb0ffdfdde9530f7640a8744edddc17c7428dd2bd9879fb24d7b1738ede0",
+                "signer": "0xC038a6053159A3170338DD5DcbB8D633d5254Ac0",
+                "last_updated": "",
+                "storagePower": "0",
+                "storageNonce": "0",
+                "storagePromise" : "1000000000",
+                "jailed": false,
+                "accum": "-10000"
+              }            ],
+            "proposer": {
+                 "ID": "1",
+              "startEpoch": "0",
+              "endEpoch": "0",
+              "nonce": "1",
+              "power": "10000",
+              "pubKey": "0x04914873c8d5935837ade39cbdabd6efb3d3d4064c5918da11e555bba0ab2c58fee95974a3222830cf73d257bdc18cfcd01765482108a48e68bc0b657618acb40e",
+              "signer": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+              "last_updated": "",
+              "storagePower": "0",
+              "storageNonce": "0",
+              "storagePromise" : "1000000000",
+              "jailed": false,
+              "accum": "-10000"
+                   
+            }
+          },
+          "selected_producers": [
+            {
+              "ID": "1",
+              "startEpoch": "0",
+              "endEpoch": "0",
+              "nonce": "1",
+              "power": "10000",
+              "pubKey": "0x04914873c8d5935837ade39cbdabd6efb3d3d4064c5918da11e555bba0ab2c58fee95974a3222830cf73d257bdc18cfcd01765482108a48e68bc0b657618acb40e",
+              "signer": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+              "last_updated": "",
+              "storagePower": "0",
+              "storageNonce": "0",
+              "storagePromise" : "1000000000",
+              "jailed": false,
+              "accum": "-10000"
+            },            {
+              "ID": "2",
+              "startEpoch": "0",
+              "endEpoch": "0",
+              "nonce": "1",
+              "power": "10000",
+              "pubKey": "0x04cb01746d1afb76cff9521efaa7e4b2cbb51ff43c1321ae37e39e5753e73d1a8fa36ffb0ffdfdde9530f7640a8744edddc17c7428dd2bd9879fb24d7b1738ede0",
+              "signer": "0xC038a6053159A3170338DD5DcbB8D633d5254Ac0",
+              "last_updated": "",
+              "storagePower": "0",
+              "storageNonce": "0",
+              "storagePromise" : "1000000000",
+              "jailed": false,
+              "accum": "-10000"
+            }          ],
+          "w3fs_chain_id": "15678",
+          "account_root_hash": "0xb4c11951957c6f8f642c4af61cd6b24640fec6dc7fc607ee8206a99e92410d30"
+        }
+      ]
+    },
+    "chainmanager": {
+      "params": {
+        "mainchain_tx_confirmations": "6",
+        "w3fschain_tx_confirmations": "10",
+        "chain_params": {
+          "w3fs_chain_id": "15678",
+          "w3fs_token_address": "0x643518fa20b62311E840e127258C528Cb9346A7f",
+          "staking_manager_address": "0xEBAB6e8969f0F1F19c8eC5C9916316b3Ac661b37",
+          "slash_manager_address": "0x0000000000000000000000000000000000000000",
+          "root_chain_address": "0x4F1a87De36E57Dee0c535032150d3846bB04E409",
+          "staking_info_address": "0xf4ac3720f252643000a735B81Fe0A2d3353585e1",
+          "state_sender_address": "0x92F6C1485FC82CeDa3C198dEFb47a61843923621",
+          "state_receiver_address": "0x0000000000000000000000000000000000001001",
+          "validator_set_address": "0x0000000000000000000000000000000000001000",
+          "validator_file_power_address": "0x0000000000000000000000000000000000001002",
+          "w3fs_staking_info_address" : "0x0000000000000000000000000000000000001006",
+          "w3fs_storage_manager_address" : "0x0000000000000000000000000000000000001002"
+        }
+      }
+    },
+    "checkpoint": {
+      "params": {
+        "checkpoint_buffer_time": "1000000000000",
+        "avg_checkpoint_length": "256",
+        "max_checkpoint_length": "1024",
+        "child_chain_block_interval": "10000"
+      },
+      "buffered_checkpoint": null,
+      "last_no_ack": "0",
+      "ack_count": "0",
+      "checkpoints": null
+    },
+    "clerk": {
+      "event_records": [],
+      "record_sequences": null
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "w3fs",
+            "amount": "10000000000000000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "params": null,
+    "sidechannel": {
+      "past_commits": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000",
+        "slash_fraction_limit": "0.333333333333333333",
+        "jail_fraction_limit": "0.333333333333333333",
+        "max_evidence_age": "120000000000",
+        "enable_slashing": false
+      },
+      "signing_infos": {
+        "1": {
+          "valID": "1",
+          "startHeight": "0",
+          "indexOffset": "0"
+        },
+        "2": {
+          "valID": "2",
+          "startHeight": "0",
+          "indexOffset": "0"
+        }
+      },
+      "missed_blocks": {},
+      "buffer_val_slash_info": null,
+      "tick_val_slash_info": null,
+      "tick_count": "0"
+    },
+    "staking": {
+      "validators": [
+        {
+          "ID": "1",
+          "startEpoch": "0",
+          "endEpoch": "0",
+          "nonce": "1",
+          "power": "10000",
+          "pubKey": "0x04914873c8d5935837ade39cbdabd6efb3d3d4064c5918da11e555bba0ab2c58fee95974a3222830cf73d257bdc18cfcd01765482108a48e68bc0b657618acb40e",
+          "signer": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+          "last_updated": "",
+          "storagePower": "0",
+          "storageNonce": "0",
+          "storagePromise" : "1000000000",
+          "jailed": false,
+          "accum": "0"
+        },        {
+          "ID": "2",
+          "startEpoch": "0",
+          "endEpoch": "0",
+          "nonce": "1",
+          "power": "10000",
+          "pubKey": "0x04cb01746d1afb76cff9521efaa7e4b2cbb51ff43c1321ae37e39e5753e73d1a8fa36ffb0ffdfdde9530f7640a8744edddc17c7428dd2bd9879fb24d7b1738ede0",
+          "signer": "0xC038a6053159A3170338DD5DcbB8D633d5254Ac0",
+          "last_updated": "",
+          "storagePower": "0",
+          "storageNonce": "0",
+          "storagePromise" : "1000000000",
+          "jailed": false,
+          "accum": "0"
+        }      ],
+      "current_val_set": {
+        "validators": [
+          {
+            "ID": "1",
+            "startEpoch": "0",
+            "endEpoch": "0",
+            "nonce": "1",
+            "power": "10000",
+            "pubKey": "0x04914873c8d5935837ade39cbdabd6efb3d3d4064c5918da11e555bba0ab2c58fee95974a3222830cf73d257bdc18cfcd01765482108a48e68bc0b657618acb40e",
+            "signer": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+            "last_updated": "",
+            "storagePower": "0",
+            "storageNonce": "0",
+            "storagePromise" : "1000000000",
+            "jailed": false,
+            "accum": "-10000"
+          },          {
+            "ID": "2",
+            "startEpoch": "0",
+            "endEpoch": "0",
+            "nonce": "1",
+            "power": "10000",
+            "pubKey": "0x04cb01746d1afb76cff9521efaa7e4b2cbb51ff43c1321ae37e39e5753e73d1a8fa36ffb0ffdfdde9530f7640a8744edddc17c7428dd2bd9879fb24d7b1738ede0",
+            "signer": "0xC038a6053159A3170338DD5DcbB8D633d5254Ac0",
+            "last_updated": "",
+            "storagePower": "0",
+            "storageNonce": "0",
+            "storagePromise" : "1000000000",
+            "jailed": false,
+            "accum": "-10000"
+          }        ],
+        "proposer": {
+             "ID": "1",
+          "startEpoch": "0",
+          "endEpoch": "0",
+          "nonce": "1",
+          "power": "10000",
+          "pubKey": "0x04914873c8d5935837ade39cbdabd6efb3d3d4064c5918da11e555bba0ab2c58fee95974a3222830cf73d257bdc18cfcd01765482108a48e68bc0b657618acb40e",
+          "signer": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+          "last_updated": "",
+          "storagePower": "0",
+          "storageNonce": "0",
+          "storagePromise" : "1000000000",
+          "jailed": false,
+          "accum": "-10000"
+      
+        }
+      },
+      "staking_sequences": null
+    },
+    "storage": {
+    },
+    "supply": {
+      "supply": {
+        "total": []
+      }
+    },
+    "topup": {
+      "tx_sequences": null,
+      "dividend_accounts": [
+        {
+          "user": "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+          "feeAmount": "0"
+        },        {
+          "user": "0xC038a6053159A3170338DD5DcbB8D633d5254Ac0",
+          "feeAmount": "0"
+        }      ]
+    }
+  }
+}
+
